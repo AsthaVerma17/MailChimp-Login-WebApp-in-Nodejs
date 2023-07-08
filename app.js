@@ -26,8 +26,8 @@ app.post("/",function(req,res){
         ]
     }
     var JSONdata=JSON.stringify(data);
-    // const url="https://us21.api.mailchimp.com/3.0/lists/2a335f46bf";
-    const url="https://us2.api.mailchimp.com/3.0/lists/2a335f46bf";
+    const url="https://us21.api.mailchimp.com/3.0/lists/2a335f46bf";
+    
     const options={
         method:"POST",
         auth:"astha17:27c99992fb3e936fcb19c1c00532b389-us21"
